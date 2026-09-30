@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles/shopping.css">
+  </head>
+
+  <body>
+    <div class="shopping-header">
+      Shopping Cart
+    </div>
+    <div>
+      Products
+    </div>
+    <div class="shopping-cart-grid">
+      <div class="item-card js-item-card">
+        <img class="images-css" src="Images/Butter.webp">
+        <div>
+          <div>Butter </div>
+          <div>200</div>
+        </div>
+        <button onclick="addToCart(event)">Order Now</button>
+      </div>
+      <div class="item-card">
+        <img class="images-css" src="Images/chips.jpg">
+        <div>
+          <div>Chips </div>
+          <div>20</div>
+        </div>
+        <button onclick="addToCart(event)">Order Now</button>
+      </div>
+      <div class="item-card">
+        <img class="images-css" src="Images/eggs.jpg">
+        <div>
+          <div>Eggs</div>
+          <div>100</div>
+        </div>
+        <button onclick="addToCart(event)">Order Now</button>
+      </div>
+      <div class="item-card">
+        <img class="images-css" src="Images/milk.jpg">
+        <div>
+          <div>
+            Milk
+          </div>
+          <div>
+            60
+          </div>
+        </div>
+        <button onclick="addToCart(event)">Order Now</button>
+      </div>
+      <div class="item-card">
+        <img class="images-css" src="Images/straws.jpg">
+        <div>
+          <div>Straws</div>
+          <div>50</div>
+        </div>
+        <button onclick="addToCart(event)">Order Now</button>
+      </div>
+      <div class="item-card">
+        <img class="images-css" src="Images/sugar.webp">
+        <div>
+          <div>Sugar</div>
+          <div>2000</div>
+        </div>
+        <button onclick="addToCart(event)">Order Now</button>
+      </div>
+
+    </div>
+
+    <div>Your Cart</div>
+    <div class="js-display-cart"></div>
+    <div class="js-total-display"></div>
+    <button class="js-clear-button" onclick="clearCart()">Clear Cart</button>
+    <script src="scripts/shopping.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,21 @@
+.html{
+  font-family: Roboto,Arial;
+}
+
+.images-css{
+  height: 250px;
+  width: 300px;
+  
+}
+
+.shopping-cart-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.item-card{
+  border:solid;
+  margin: 10px;
+  padding: 10px;
+}
